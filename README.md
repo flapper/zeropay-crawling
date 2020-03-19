@@ -19,3 +19,6 @@ https://www.zeropay.or.kr/intro/frncSrchList_json.do
 
 # Form Data (Page 2)
 pageIndex=2&recordCountPerPage=10&firstIndex=11&lastIndex=20&searchCondition=&tryCode=01&skkCode=09&pobsAfstrName=&bztypName=&_csrf=9677acdc-21ac-4e53-8c44-c4bf471da6f7
+
+# Response Json
+https://github.com/flapper/zeropay-crawling/blob/master/response.json
