@@ -1,18 +1,18 @@
 # 목적
 지도에 제로페이 가맹점 위치를 표시
 
-# 과정
-1. 크롤링
-제로페이 홈페이지에 있는 가맹점 주소를 크롤링한다
-2. Upload
-크롤링한 데이터를 csv 나 xlsx 로 업로드 한다
+# 과정  
+1. 크롤링  
+제로페이 홈페이지에 있는 가맹점 주소를 크롤링한다  
+2. Upload  
+크롤링한 데이터를 csv 나 xlsx 로 업로드 한다  
 
-# 제약사항
-1. 시도와 시군구 코드를 알아야한다
+# 제약사항  
+1. 시도와 시군구 코드를 알아야한다  
 tryCode(sido) = '01' (서울)  
 skkCode(sigungu) = '09' (노원구)  
-2. 마지막 페이지 번호를 알아야 한다
-for loop 안의 5590
+2. 마지막 페이지 번호를 알아야 한다  
+for loop 안의 5590  
 ![last_page](https://github.com/flapper/zeropay-crawling/blob/master/last_page.png)
 
 # Request Url
